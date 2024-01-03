@@ -1,0 +1,11 @@
+.activities {
+    margin-bottom: 120px;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__title {
+        padding-top: 16px;
+    }
+}

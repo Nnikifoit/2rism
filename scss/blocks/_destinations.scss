@@ -1,0 +1,14 @@
+.destinations {
+    margin: 120px 0 120px 0;
+    &__title {
+        padding-bottom: 64px;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            padding-bottom: 8px;
+        }
+    }
+}

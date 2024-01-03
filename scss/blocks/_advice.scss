@@ -1,0 +1,35 @@
+.advice {
+    margin-bottom: 120px;
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        &-img {
+            height: 380px;
+        }
+    }
+    &__block {
+        width: 290px;
+        &-bridge {
+            padding-bottom: 16px;
+        }
+        &-icecream {
+            padding-bottom: 64px;
+        }
+    }
+    &__items {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 250px;
+        &-item {
+            margin-top: 80px;
+            display: flex;
+            align-items: center;
+        }
+        &-item2 {
+            margin-top: 152px;
+            display: flex;
+            align-items: center;
+        }
+    }
+}

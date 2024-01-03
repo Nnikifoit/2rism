@@ -1,0 +1,37 @@
+.hotels {
+    margin-bottom: 120px;
+    img {
+        padding-bottom: 10px;
+        padding-right: 4px;
+    }
+    &__blocks {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 12px;
+        &-item {
+            display: flex;
+        }
+
+        .rating-mini {
+            display: inline-block;
+            font-size: 0;
+        }
+        .rating-mini span {
+            padding: 0;
+            font-size: 21px;
+            line-height: 1;
+            color: lightgrey;
+        }
+        .rating-mini > span:before {
+            content: '★';
+        }
+        .rating-mini > span.active {
+            color: #ecb307;
+        }
+    }
+}

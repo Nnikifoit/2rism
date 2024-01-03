@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url("../fonts/Poppins-Light.ttf");
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1360px;
+}
+
+.btn {
+    width: 105px;
+    height: 40px;
+    background-color: #F6F4FF;
+    border: none;
+    border-radius: 12px;
+    color: #7B61FF;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 600ms ease;
+    &:hover {
+        background-color: #dcdafe;
+    }
+}
+
+.flex {
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@import 'blocks/header';
+@import 'blocks/title';
+@import 'blocks/destinations';
+@import 'blocks/hotels';
+@import 'blocks/advice';
+@import 'blocks/activities';
+@import 'blocks/about';
+@import 'blocks/footer';
